@@ -1,0 +1,27 @@
+# ROS2 build artifacts
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
+
+# Large data files
+data/
+results/
+*.mcap
+*.bag
+*.pcd
+*.log
+*.csv
+*.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode
+.vscode/
+.devcontainer/
+
+# OS files
+.DS_Store
+Thumbs.db
