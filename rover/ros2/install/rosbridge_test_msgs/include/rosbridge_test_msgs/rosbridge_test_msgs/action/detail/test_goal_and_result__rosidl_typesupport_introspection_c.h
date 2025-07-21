@@ -1,0 +1,1 @@
+/workspace/rover/ros2/build/rosbridge_test_msgs/rosidl_typesupport_introspection_c/rosbridge_test_msgs/action/detail/test_goal_and_result__rosidl_typesupport_introspection_c.h

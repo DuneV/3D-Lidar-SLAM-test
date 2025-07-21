@@ -1,0 +1,1 @@
+/workspace/rover/ros2/build/rosbridge_test_msgs/ament_cmake_core/rosbridge_test_msgsConfig-version.cmake

@@ -1,0 +1,1 @@
+/workspace/rover/ros2/build/lio_sam/rosidl_generator_py/lio_sam/__init__.py

@@ -1,0 +1,1 @@
+/workspace/rover/ros2/build/rosbridge_suite/ament_cmake_environment_hooks/local_setup.bash

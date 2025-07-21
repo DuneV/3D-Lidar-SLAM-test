@@ -1,0 +1,1 @@
+/workspace/rover/ros2/build/lio_sam/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c

@@ -1,0 +1,1 @@
+/workspace/rover/ros2/build/rosapi_msgs/rosidl_generator_py/rosapi_msgs/srv/_action_goal_details_s.c

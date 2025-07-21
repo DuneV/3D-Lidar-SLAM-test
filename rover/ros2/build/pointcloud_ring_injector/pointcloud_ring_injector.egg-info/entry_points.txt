@@ -1,0 +1,3 @@
+[console_scripts]
+ring_injector = pointcloud_ring_injector.ring_injector:main
+

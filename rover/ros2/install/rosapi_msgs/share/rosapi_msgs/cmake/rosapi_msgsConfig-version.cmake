@@ -1,0 +1,1 @@
+/workspace/rover/ros2/build/rosapi_msgs/ament_cmake_core/rosapi_msgsConfig-version.cmake

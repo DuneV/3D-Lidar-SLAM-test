@@ -1,0 +1,1 @@
+/workspace/rover/ros2/src/kiss-icp/ros/scripts/record_odom_gps.py

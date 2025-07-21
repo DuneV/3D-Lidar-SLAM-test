@@ -1,0 +1,1 @@
+/workspace/rover/ros2/build/rosbridge_suite/ament_cmake_core/rosbridge_suiteConfig.cmake

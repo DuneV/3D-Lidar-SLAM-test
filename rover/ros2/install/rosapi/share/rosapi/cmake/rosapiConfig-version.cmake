@@ -1,0 +1,1 @@
+/workspace/rover/ros2/build/rosapi/ament_cmake_core/rosapiConfig-version.cmake

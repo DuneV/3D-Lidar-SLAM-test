@@ -1,0 +1,3 @@
+
+bool successful
+string reason

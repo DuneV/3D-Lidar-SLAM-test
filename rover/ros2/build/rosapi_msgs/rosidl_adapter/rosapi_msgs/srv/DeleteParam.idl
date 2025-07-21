@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rosapi_msgs/srv/DeleteParam.srv
+// generated code does not contain a copyright notice
+
+
+module rosapi_msgs {
+  module srv {
+    struct DeleteParam_Request {
+      string name;
+    };
+    struct DeleteParam_Response {
+      boolean successful;
+
+      string reason;
+    };
+  };
+};

@@ -1,0 +1,15 @@
+/workspace/rover/ros2/install/rosbridge_suite/share/ament_index/resource_index/package_run_dependencies/rosbridge_suite
+/workspace/rover/ros2/install/rosbridge_suite/share/ament_index/resource_index/parent_prefix_path/rosbridge_suite
+/workspace/rover/ros2/install/rosbridge_suite/share/rosbridge_suite/environment/ament_prefix_path.sh
+/workspace/rover/ros2/install/rosbridge_suite/share/rosbridge_suite/environment/ament_prefix_path.dsv
+/workspace/rover/ros2/install/rosbridge_suite/share/rosbridge_suite/environment/path.sh
+/workspace/rover/ros2/install/rosbridge_suite/share/rosbridge_suite/environment/path.dsv
+/workspace/rover/ros2/install/rosbridge_suite/share/rosbridge_suite/local_setup.bash
+/workspace/rover/ros2/install/rosbridge_suite/share/rosbridge_suite/local_setup.sh
+/workspace/rover/ros2/install/rosbridge_suite/share/rosbridge_suite/local_setup.zsh
+/workspace/rover/ros2/install/rosbridge_suite/share/rosbridge_suite/local_setup.dsv
+/workspace/rover/ros2/install/rosbridge_suite/share/rosbridge_suite/package.dsv
+/workspace/rover/ros2/install/rosbridge_suite/share/ament_index/resource_index/packages/rosbridge_suite
+/workspace/rover/ros2/install/rosbridge_suite/share/rosbridge_suite/cmake/rosbridge_suiteConfig.cmake
+/workspace/rover/ros2/install/rosbridge_suite/share/rosbridge_suite/cmake/rosbridge_suiteConfig-version.cmake
+/workspace/rover/ros2/install/rosbridge_suite/share/rosbridge_suite/package.xml

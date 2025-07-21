@@ -1,0 +1,1 @@
+/workspace/rover/ros2/build/rosbridge_test_msgs/ament_cmake_python/rosbridge_test_msgs/rosbridge_test_msgs.egg-info/SOURCES.txt

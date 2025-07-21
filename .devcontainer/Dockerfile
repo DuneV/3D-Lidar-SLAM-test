@@ -6,7 +6,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Install basic development tools
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
-    cmake \
     git \
     libeigen3-dev \
     libgtest-dev \
@@ -24,6 +23,16 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     software-properties-common \
     && rm -rf /var/lib/apt/lists/*
 
+# Update Cmake
+RUN wget https://github.com/Kitware/CMake/releases/download/v3.26.4/cmake-3.26.4.tar.gz && \
+    tar -zxvf cmake-3.26.4.tar.gz && \
+    cd cmake-3.26.4 && \
+    ./bootstrap && \
+    make -j$(nproc) && \
+    make install && \
+    cmake --version && \
+    cd .. && rm -rf cmake-3.26.4*
+
 # Install additional ROS packages and required dependencies from package.xml
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-humble-rosbag2 \
@@ -40,6 +49,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-humble-tf2 \
     ros-humble-pcl-conversions \
     ros-humble-cv-bridge \
+    ros-humble-rosbag2-storage-default-plugins \
+    ros-humble-rosbag2-storage-mcap \
     python3-opencv \
     libopencv-dev \
     && rm -rf /var/lib/apt/lists/*
@@ -74,8 +85,10 @@ RUN pip3 install --no-cache-dir \
     numpy \
     open3d \
     scipy \
+    mcap \
     matplotlib \
-    pandas
+    pandas \
+    geopy
 
 # Create non-root user
 RUN useradd -m developer -s /bin/bash && \
@@ -96,8 +109,14 @@ RUN chmod +x /ros_entrypoint.sh && \
 USER developer
 WORKDIR /workspace
 
+# Install requirements from the analysis
+# COPY .devcontainer/requirements.txt /workspace/requirements.txt
+# RUN pip3 install --no-cache-dir -r /workspace/requirements.txt
+
+
 ENTRYPOINT ["/ros_entrypoint.sh"]
 CMD ["bash"]
+
 
 # Switch back to dialog for any ad-hoc use of apt-get
 ENV DEBIAN_FRONTEND=dialog 

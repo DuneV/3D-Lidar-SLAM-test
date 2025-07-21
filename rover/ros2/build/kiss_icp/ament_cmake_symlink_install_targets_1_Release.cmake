@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspace/rover/ros2/build/kiss_icp/libodometry_component.so" "TARGETS" "odometry_component" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/kiss_icp")
